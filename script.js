@@ -1,3 +1,4 @@
-function changeBg(color){
-    document.body.style.background = color;
+function changeBg(){
+    var color = document.getElementById("body");
+    color.style.backgroundColor = document.getElementById("colorSelect").value;
 }
